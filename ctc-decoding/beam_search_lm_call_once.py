@@ -1,5 +1,6 @@
 # Modified from https://github.com/corticph/prefix-beam-search/blob/master/prefix_beam_search.py
 # Modification: call Language Model once per all beams, but not on every beam
+# Use in case LM is heavy like GPT
 
 from collections import defaultdict, Counter
 import re
